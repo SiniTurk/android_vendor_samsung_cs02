@@ -40,7 +40,16 @@ PRODUCT_COPY_FILES += \
 # h264
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/libOMX.brcm.video.h264.hw.decoder.so:system/lib/libOMX.brcm.video.h264.hw.decoder.so \
-	$(LOCAL_PATH)/proprietary/lib/libOMX.brcm.video.h264.hw.encoder.so:system/lib/libOMX.brcm.video.h264.hw.encoder.so
+	$(LOCAL_PATH)/proprietary/lib/libOMX.brcm.video.h264.decoder.so:system/lib/libOMX.brcm.video.h264.decoder.so \
+	$(LOCAL_PATH)/proprietary/lib/libOMX.brcm.video.h264.hw.encoder.so:system/lib/libOMX.brcm.video.h264.hw.encoder.so \
+	$(LOCAL_PATH)/proprietary/lib/libOMX.brcm.video.h264.encoder.so:system/lib/libOMX.brcm.video.h264.encoder.so \
+	$(LOCAL_PATH)/proprietary/lib/libOMX.brcm.video.h264.async.hw.encoder.so:system/lib/libOMX.brcm.video.h264.async.hw.encoder.so
+
+# mpeg4
+PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/proprietary/lib/libOMX.brcm.video.mpeg4.hw.decoder.so:system/lib/libOMX.brcm.video.mpeg4.hw.decoder.so \
+	$(LOCAL_PATH)/proprietary/lib/libOMX.brcm.video.mpeg4.decoder.so:system/lib/libOMX.brcm.video.mpeg4.decoder.so \
+	$(LOCAL_PATH)/proprietary/lib/libOMX.brcm.video.mpeg4.encoder.so:system/lib/libOMX.brcm.video.mpeg4.encoder.so
 
 # other
 PRODUCT_COPY_FILES += \
