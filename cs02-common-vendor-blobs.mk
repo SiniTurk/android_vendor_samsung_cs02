@@ -4,11 +4,11 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/bin/BCM4330B1_002.001.003.0967.1173.hcd:system/bin/BCM4330B1_002.001.003.0967.1173.hcd \
 	$(LOCAL_PATH)/proprietary/bin/bkmgrd:system/bin/bkmgrd \
 	$(LOCAL_PATH)/proprietary/bin/glgps:system/bin/glgps \
-    $(LOCAL_PATH)/proprietary/bin/gps.cer:system/bin/gps.cer \
-    $(LOCAL_PATH)/proprietary/bin/gpslogd:system/bin/gpslogd \
-    $(LOCAL_PATH)/proprietary/bin/macloader:system/bin/macloader \
+    	$(LOCAL_PATH)/proprietary/bin/gps.cer:system/bin/gps.cer \
+    	$(LOCAL_PATH)/proprietary/bin/gpslogd:system/bin/gpslogd \
+    	$(LOCAL_PATH)/proprietary/bin/macloader:system/bin/macloader \
 	$(LOCAL_PATH)/proprietary/bin/mttlogger:system/bin/mttlogger \
-    $(LOCAL_PATH)/proprietary/bin/rild:system/bin/rild \
+    	$(LOCAL_PATH)/proprietary/bin/rild:system/bin/rild \
 	$(LOCAL_PATH)/proprietary/bin/mfgloader:system/bin/mfgloader \
 	$(LOCAL_PATH)/proprietary/bin/sensord:system/bin/sensord \
 	$(LOCAL_PATH)/proprietary/bin/wlandutservice:system/bin/wlandutservice
@@ -45,6 +45,14 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/libh264_enc_bp.so:system/lib/libh264_enc_bp.so \
 	$(LOCAL_PATH)/proprietary/lib/libtiming.so:system/lib/libtiming.so
 
+# h263
+PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/proprietary/lib/libOMX.brcm.video.h263.decoder.so:system/lib/libOMX.brcm.video.h263.decoder.so \
+	$(LOCAL_PATH)/proprietary/lib/libOMX.brcm.video.h263.encoder.so:system/lib/libOMX.brcm.video.h263.encoder.so \
+	$(LOCAL_PATH)/proprietary/lib/libh263_dec_p3.so:system/lib/libh263_dec_p3.so \
+	$(LOCAL_PATH)/proprietary/lib/libh263_enc_p3.so:system/lib/libh263_enc_p3.so \
+	$(LOCAL_PATH)/proprietary/lib/libh263_dummy_enc.so:system/lib/libh263_dummy_enc.so
+
 # mpeg4
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/libOMX.brcm.video.mpeg4.decoder.so:system/lib/libOMX.brcm.video.mpeg4.decoder.so \
@@ -56,18 +64,18 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
 	$(LOCAL_PATH)/proprietary/lib/libBrcmOMX_Component.so:system/lib/libBrcmOMX_Component.so \
-    $(LOCAL_PATH)/proprietary/lib/libBrcmOMX_Core.so:system/lib/libBrcmOMX_Core.so \
+    	$(LOCAL_PATH)/proprietary/lib/libBrcmOMX_Core.so:system/lib/libBrcmOMX_Core.so \
 	$(LOCAL_PATH)/proprietary/lib/libcodec_util.so:system/lib/libcodec_util.so \
-    $(LOCAL_PATH)/proprietary/lib/libhwcodec.so:system/lib/libhwcodec.so \
+    	$(LOCAL_PATH)/proprietary/lib/libhwcodec.so:system/lib/libhwcodec.so \
 	$(LOCAL_PATH)/proprietary/lib/libuecodec.so:system/lib/libuecodec.so
 	
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/egl/libGLES_hawaii.so:system/lib/egl/libGLES_hawaii.so \
-    $(LOCAL_PATH)/proprietary/lib/hw/audio.primary.hawaii.so:system/lib/hw/audio.primary.hawaii.so \
-    $(LOCAL_PATH)/proprietary/lib/hw/camera.hawaii.so:system/lib/hw/camera.hawaii.so \
-    $(LOCAL_PATH)/proprietary/lib/hw/gps.hawaii.so:system/lib/hw/gps.hawaii.so \
-    $(LOCAL_PATH)/proprietary/lib/hw/gralloc.hawaii.so:system/lib/hw/gralloc.hawaii.so \
-    $(LOCAL_PATH)/proprietary/lib/hw/hwcomposer.hawaii.so:system/lib/hw/hwcomposer.hawaii.so \
+    	$(LOCAL_PATH)/proprietary/lib/hw/audio.primary.hawaii.so:system/lib/hw/audio.primary.hawaii.so \
+    	$(LOCAL_PATH)/proprietary/lib/hw/camera.hawaii.so:system/lib/hw/camera.hawaii.so \
+    	$(LOCAL_PATH)/proprietary/lib/hw/gps.hawaii.so:system/lib/hw/gps.hawaii.so \
+    	$(LOCAL_PATH)/proprietary/lib/hw/gralloc.hawaii.so:system/lib/hw/gralloc.hawaii.so \
+    	$(LOCAL_PATH)/proprietary/lib/hw/hwcomposer.hawaii.so:system/lib/hw/hwcomposer.hawaii.so \
 	$(LOCAL_PATH)/proprietary/lib/hw/sensors.hawaii.so:system/lib/hw/sensors.hawaii.so \
 	$(LOCAL_PATH)/proprietary/lib/hw/audio.usb.hawaii.so:system/lib/hw/audio.usb.hawaii.so \
 	$(LOCAL_PATH)/proprietary/lib/hw/bplus.default.so:system/lib/hw/bplus.default.so \
@@ -75,10 +83,10 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/hw/acoustics.default.so:system/lib/hw/acoustics.default.so
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/usr/lib/alsa-lib/libasound_module_pcm_bcmfilter.so:system/usr/lib/alsa-lib/libasound_module_pcm_bcmfilter.so \
-    $(LOCAL_PATH)/proprietary/usr/lib/alsa-lib/libbcm_hp_filter.so:system/usr/lib/alsa-lib/libbcm_hp_filter.so \
-    $(LOCAL_PATH)/proprietary/usr/lib/alsa-lib/libbcm_test_filter.so:system/usr/lib/alsa-lib/libbcm_test_filter.so \
-    $(LOCAL_PATH)/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf
+    	$(LOCAL_PATH)/proprietary/usr/lib/alsa-lib/libasound_module_pcm_bcmfilter.so:system/usr/lib/alsa-lib/libasound_module_pcm_bcmfilter.so \
+   	$(LOCAL_PATH)/proprietary/usr/lib/alsa-lib/libbcm_hp_filter.so:system/usr/lib/alsa-lib/libbcm_hp_filter.so \
+   	$(LOCAL_PATH)/proprietary/usr/lib/alsa-lib/libbcm_test_filter.so:system/usr/lib/alsa-lib/libbcm_test_filter.so \
+   	$(LOCAL_PATH)/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf
 
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
@@ -86,12 +94,12 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
 	$(LOCAL_PATH)/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
 	$(LOCAL_PATH)/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
-    $(LOCAL_PATH)/proprietary/etc/wifi/bcmdhd_p2p.bin:system/etc/wifi/bcmdhd_p2p.bin \
-    $(LOCAL_PATH)/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
+    	$(LOCAL_PATH)/proprietary/etc/wifi/bcmdhd_p2p.bin:system/etc/wifi/bcmdhd_p2p.bin \
+    	$(LOCAL_PATH)/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
 	$(LOCAL_PATH)/proprietary/etc/asound.conf:system/etc/asound.conf \
-    $(LOCAL_PATH)/proprietary/etc/gps.conf:system/etc/gps.conf \
+    	$(LOCAL_PATH)/proprietary/etc/gps.conf:system/etc/gps.conf \
 	$(LOCAL_PATH)/proprietary/etc/gps/glconfig.xml:system/etc/gps/glconfig.xml \
-    $(LOCAL_PATH)/proprietary/etc/Volume.db:system/etc/Volume.db
+    	$(LOCAL_PATH)/proprietary/etc/Volume.db:system/etc/Volume.db
 
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
@@ -102,8 +110,8 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/libv3d.so:system/lib/libv3d.so \
 	$(LOCAL_PATH)/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
 	$(LOCAL_PATH)/proprietary/lib/libvcdecoder_jni.so:system/lib/libvcdecoder_jni.so \
-    $(LOCAL_PATH)/proprietary/lib/libV3D_csc.so:system/lib/libV3D_csc.so \
-    $(LOCAL_PATH)/proprietary/lib/libV3D_driver.so:system/lib/libV3D_driver.so \
+    	$(LOCAL_PATH)/proprietary/lib/libV3D_csc.so:system/lib/libV3D_csc.so \
+    	$(LOCAL_PATH)/proprietary/lib/libV3D_driver.so:system/lib/libV3D_driver.so \
 	$(LOCAL_PATH)/proprietary/lib/libasound.so:system/lib/libasound.so \
 	$(LOCAL_PATH)/proprietary/lib/libsavscmn.so:system/lib/libsavscmn.so \
 	$(LOCAL_PATH)/proprietary/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
@@ -137,13 +145,13 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/libVCOS.so:system/lib/libVCOS.so \
 	$(LOCAL_PATH)/proprietary/lib/libVCE_csl.so:system/lib/libVCE_csl.so \
 	$(LOCAL_PATH)/proprietary/lib/libVCE_driver.so:system/lib/libVCE_driver.so \
-    $(LOCAL_PATH)/proprietary/lib/libVCE_imageconv.so:system/lib/libVCE_imageconv.so \
-    $(LOCAL_PATH)/proprietary/lib/libVCE_vtq.so:system/lib/libVCE_vtq.so \
+    	$(LOCAL_PATH)/proprietary/lib/libVCE_imageconv.so:system/lib/libVCE_imageconv.so \
+    	$(LOCAL_PATH)/proprietary/lib/libVCE_vtq.so:system/lib/libVCE_vtq.so \
 	$(LOCAL_PATH)/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
 	$(LOCAL_PATH)/proprietary/lib/libkeystore_client.so:system/lib/libkeystore_client.so \
 	$(LOCAL_PATH)/proprietary/lib/libcontrolcsc.so:system/lib/libcontrolcsc.so \
 	$(LOCAL_PATH)/proprietary/lib/libISP.so:system/lib/libISP.so \
-    $(LOCAL_PATH)/proprietary/lib/libisp2.so:system/lib/libisp2.so \
+    	$(LOCAL_PATH)/proprietary/lib/libisp2.so:system/lib/libisp2.so \
 	$(LOCAL_PATH)/proprietary/lib/libisp3.so:system/lib/libisp3.so \
 	$(LOCAL_PATH)/proprietary/lib/libjpega.so:system/lib/libjpega.so
 	
