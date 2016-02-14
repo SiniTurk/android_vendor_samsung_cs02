@@ -58,7 +58,7 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/libOMX.brcm.video.mpeg4.decoder.so:system/lib/libOMX.brcm.video.mpeg4.decoder.so \
 	$(LOCAL_PATH)/proprietary/lib/libOMX.brcm.video.mpeg4.encoder.so:system/lib/libOMX.brcm.video.mpeg4.encoder.so \
         $(LOCAL_PATH)/proprietary/lib/libmpeg4_dec_asp.so:system/lib/libmpeg4_dec_asp.so \
-        $(LOCAL_PATH)/proprietary/lib/libmpeg4_dec_asp.so:system/lib/libmpeg4_enc_sp.so
+        $(LOCAL_PATH)/proprietary/lib/libmpeg4_enc_sp.so:system/lib/libmpeg4_enc_sp.so
 
 # other
 PRODUCT_COPY_FILES += \
