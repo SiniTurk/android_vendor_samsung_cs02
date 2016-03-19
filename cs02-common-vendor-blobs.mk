@@ -39,26 +39,26 @@ PRODUCT_COPY_FILES += \
 	
 # h264
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/proprietary/lib/libOMX.brcm.video.h264.decoder.so:system/lib/libOMX.brcm.video.h264.decoder.so \
 	$(LOCAL_PATH)/proprietary/lib/libOMX.brcm.video.h264.encoder.so:system/lib/libOMX.brcm.video.h264.encoder.so \
 	$(LOCAL_PATH)/proprietary/lib/libh264_dec_bp.so:system/lib/libh264_dec_bp.so \
 	$(LOCAL_PATH)/proprietary/lib/libh264_enc_bp.so:system/lib/libh264_enc_bp.so \
 	$(LOCAL_PATH)/proprietary/lib/libtiming.so:system/lib/libtiming.so
+#	$(LOCAL_PATH)/proprietary/lib/libOMX.brcm.video.h264.decoder.so:system/lib/libOMX.brcm.video.h264.decoder.so \
 
 # h263
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/proprietary/lib/libOMX.brcm.video.h263.decoder.so:system/lib/libOMX.brcm.video.h263.decoder.so \
 	$(LOCAL_PATH)/proprietary/lib/libOMX.brcm.video.h263.encoder.so:system/lib/libOMX.brcm.video.h263.encoder.so \
 	$(LOCAL_PATH)/proprietary/lib/libh263_dec_p3.so:system/lib/libh263_dec_p3.so \
 	$(LOCAL_PATH)/proprietary/lib/libh263_enc_p3.so:system/lib/libh263_enc_p3.so \
 	$(LOCAL_PATH)/proprietary/lib/libh263_dummy_enc.so:system/lib/libh263_dummy_enc.so
+#	$(LOCAL_PATH)/proprietary/lib/libOMX.brcm.video.h263.decoder.so:system/lib/libOMX.brcm.video.h263.decoder.so \
 
 # mpeg4
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/proprietary/lib/libOMX.brcm.video.mpeg4.decoder.so:system/lib/libOMX.brcm.video.mpeg4.decoder.so \
 	$(LOCAL_PATH)/proprietary/lib/libOMX.brcm.video.mpeg4.encoder.so:system/lib/libOMX.brcm.video.mpeg4.encoder.so \
         $(LOCAL_PATH)/proprietary/lib/libmpeg4_dec_asp.so:system/lib/libmpeg4_dec_asp.so \
         $(LOCAL_PATH)/proprietary/lib/libmpeg4_enc_sp.so:system/lib/libmpeg4_enc_sp.so
+#	$(LOCAL_PATH)/proprietary/lib/libOMX.brcm.video.mpeg4.decoder.so:system/lib/libOMX.brcm.video.mpeg4.decoder.so \
 
 # other
 PRODUCT_COPY_FILES += \
@@ -80,7 +80,8 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/lib/hw/audio.usb.hawaii.so:system/lib/hw/audio.usb.hawaii.so \
 	$(LOCAL_PATH)/proprietary/lib/hw/bplus.default.so:system/lib/hw/bplus.default.so \
 	$(LOCAL_PATH)/proprietary/lib/hw/alsa.default.so:system/lib/hw/alsa.default.so \
-	$(LOCAL_PATH)/proprietary/lib/hw/acoustics.default.so:system/lib/hw/acoustics.default.so
+	$(LOCAL_PATH)/proprietary/lib/hw/acoustics.default.so:system/lib/hw/acoustics.default.so \
+	$(LOCAL_PATH)/proprietary/lib/hw/nfc_nci.hawaii.so:system/lib/hw/nfc_nci.hawaii.so
 
 PRODUCT_COPY_FILES += \
     	$(LOCAL_PATH)/proprietary/usr/lib/alsa-lib/libasound_module_pcm_bcmfilter.so:system/usr/lib/alsa-lib/libasound_module_pcm_bcmfilter.so \
@@ -191,7 +192,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/media/battery_charging_95.qmg:system/media/battery_charging_95.qmg \
 	$(LOCAL_PATH)/proprietary/media/battery_charging_100.qmg:system/media/battery_charging_100.qmg \
 	$(LOCAL_PATH)/proprietary/media/battery_error.qmg:system/media/battery_error.qmg \
-	$(LOCAL_PATH)/proprietary/media/chargingwarning.qmg:system/media/chargingwarning.qmg
-
-#	$(LOCAL_PATH)/proprietary/vendor/firmware/bcm2079xB5_firmware_20793.ncd:system/vendor/firmware/bcm2079xB5_firmware_20793.ncd \
-#	$(LOCAL_PATH)/proprietary/vendor/firmware/bcm2079xB5_pre_firmware_20793.ncd:system/vendor/firmware/bcm2079xB5_pre_firmware_20793.ncd \
+	$(LOCAL_PATH)/proprietary/media/chargingwarning.qmg:system/media/chargingwarning.qmg \
+	$(LOCAL_PATH)/proprietary/vendor/firmware/bcm2079xB5_firmware_20793.ncd:system/vendor/firmware/bcm2079xB5_firmware_20793.ncd \
+	$(LOCAL_PATH)/proprietary/vendor/firmware/bcm2079xB5_pre_firmware_20793.ncd:system/vendor/firmware/bcm2079xB5_pre_firmware_20793.ncd
