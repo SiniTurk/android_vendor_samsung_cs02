@@ -181,3 +181,8 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/media/battery_charging_100.qmg:system/media/battery_charging_100.qmg \
 	$(LOCAL_PATH)/proprietary/media/battery_error.qmg:system/media/battery_error.qmg \
 	$(LOCAL_PATH)/proprietary/media/chargingwarning.qmg:system/media/chargingwarning.qmg
+
+PRODUCT_COPY_FILES += \
+        $(LOCAL_PATH)/proprietary/lib/lib_DNSe_NRSS_ver224c.so:system/lib/lib_DNSe_NRSS_ver224c.so \
+        $(LOCAL_PATH)/proprietary/lib/libsamsungRecord_ns.so:system/lib/libsamsungRecord_ns.so \
+        $(LOCAL_PATH)/proprietary/lib/libstlport.so:system/lib/libstlport.so
