@@ -184,5 +184,4 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/proprietary/lib/lib_DNSe_NRSS_ver224c.so:system/lib/lib_DNSe_NRSS_ver224c.so \
-        $(LOCAL_PATH)/proprietary/lib/libsamsungRecord_ns.so:system/lib/libsamsungRecord_ns.so \
-        $(LOCAL_PATH)/proprietary/lib/libstlport.so:system/lib/libstlport.so
+        $(LOCAL_PATH)/proprietary/lib/libsamsungRecord_ns.so:system/lib/libsamsungRecord_ns.so
