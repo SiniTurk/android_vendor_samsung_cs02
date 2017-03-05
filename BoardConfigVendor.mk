@@ -1,1 +1,1 @@
-USE_CAMERA_STUB := false
+# Not used for now
