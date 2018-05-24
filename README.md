@@ -1,4 +1,4 @@
-# Proprietary blob for GT-S758X (kyleproxx)
+# Proprietary blobs for SM-G350 (cs02)
 
 ### File info:
   * S7272XXUAOD1: 
@@ -17,11 +17,6 @@
     * /lib/libril_KYLEPRODS.so
   * S7580XXUBOL1:
     * The rest
-
-### Other resource:
-  - Device tree (GT-S7580): https://github.com/SandPox/android_device_samsung_kylepro
-  - Device tree (GT-S7582): https://github.com/SandPox/android_device_samsung_kyleprods
-  - Kernel source: https://github.com/SandPox/android_kernel_samsung_kyleproxx
 
 ### Credits (Sort by alphabetical order):
   - Pawitp
