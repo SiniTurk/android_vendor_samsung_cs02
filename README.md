@@ -15,6 +15,9 @@
   * S7580XXUBOL1:
     * /lib/egl/libGLES_hawaii.so
       * Hex-edited to use the ucnv suffix 56
+      * Moved "abuffer" messages to the verbose level
+    * /lib/hw/gralloc.hawaii.so
+      * Moved "GRALLOC ALLOC" messages to the verbose level
     * The rest
 
 ### Credits (Sort by alphabetical order):
