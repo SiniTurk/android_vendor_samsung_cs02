@@ -12,6 +12,10 @@
     * /lib/libsamsungSoundbooster.so
   * G310HNXXU0APA1:
     * /bin/lpm
+  * G350XXUANB1:
+    * /bin/rild
+    * /lib/libril.so
+    * /lib/libbrcm_ril.so
   * S7580XXUBOL1:
     * /lib/egl/libGLES_hawaii.so
       * Hex-edited to use the ucnv suffix 56
