@@ -13,6 +13,8 @@
   * G310HNXXU0APA1:
     * /bin/lpm
   * S7580XXUBOL1:
+    * /lib/egl/libGLES_hawaii.so
+      * Hex-edited to use the ucnv suffix 56
     * The rest
 
 ### Credits (Sort by alphabetical order):
