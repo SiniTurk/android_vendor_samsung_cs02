@@ -38,7 +38,7 @@
 | lib/hw/camera.hawaii.so                                      | S7580XXUBOL1    |         |
 | lib/hw/gps.hawaii.so                                         | G350XXUANB1     |         |
 | lib/hw/gralloc.hawaii.so                                     | S7580XXUBOL1    | <ul><li>Removed Samsung's logging spam</li></ul> |
-| lib/hw/hwcomposer.hawaii.so                                  | G350XXUANB1     |         |
+| lib/hw/hwcomposer.hawaii.so                                  | G350XXUANB1     | <ul><li>Move FBDevice messages to verbose channel</li></ul> |
 | lib/hw/sensors.hawaii.so                                     | S7580XXUBOL1    |         |
 | lib/libBrcmOMX_Component.so                                  | S7580XXUBOL1    |         |
 | lib/libBrcmOMX_Core.so                                       | G350XXUANB1     |         |
