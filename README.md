@@ -29,7 +29,7 @@ Vendor tree for Samsung Galaxy Core Plus SM-G350 aka cs02
 | etc/wifi/nvram_mfg.txt                                       | G350XXUANB1     |         |
 | etc/wifi/nvram_net.txt                                       | G350XXUANB1     |         |
 | etc/wifi/wpa_supplicant.conf                                 | G350XXUANB1     |         |
-| lib/egl/libGLES_hawaii.so                                    | G350XXUANB1     |         |
+| lib/egl/libGLES_hawaii.so                                    | G350XXUANB1     | <ul><li>Bumped ucnv suffix to 55</li></ul> |
 | lib/hw/acoustics.default.so                                  | G350XXUANB1     |         |
 | lib/hw/alsa.default.so                                       | G350XXUANB1     |         |
 | lib/hw/audio.primary.hawaii.so                               | G350XXUANB1     |         |
