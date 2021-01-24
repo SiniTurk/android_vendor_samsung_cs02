@@ -2,7 +2,6 @@ LOCAL_PATH := vendor/samsung/cs02
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/BCM4330B1_002.001.003.0967.1173.hcd:system/bin/BCM4330B1_002.001.003.0967.1173.hcd \
     $(LOCAL_PATH)/proprietary/bin/bkmgrd:system/bin/bkmgrd \
-    $(LOCAL_PATH)/proprietary/bin/cate_rpc_util:system/bin/cate_rpc_util \
     $(LOCAL_PATH)/proprietary/bin/glgps:system/bin/glgps \
     $(LOCAL_PATH)/proprietary/bin/gps.cer:system/bin/gps.cer \
     $(LOCAL_PATH)/proprietary/bin/gpslogd:system/bin/gpslogd \
@@ -52,9 +51,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libbrcmparser.so:system/lib/libbrcmparser.so \
     $(LOCAL_PATH)/proprietary/lib/libbrcm_ril.so:system/lib/libbrcm_ril.so \
     $(LOCAL_PATH)/proprietary/lib/libcapi2.so:system/lib/libcapi2.so \
-    $(LOCAL_PATH)/proprietary/lib/libcate_rpc.so:system/lib/libcate_rpc.so \
     $(LOCAL_PATH)/proprietary/lib/libcodec_util.so:system/lib/libcodec_util.so \
-    $(LOCAL_PATH)/proprietary/lib/lib_DNSe_NRSS_ver224c.so:system/lib/lib_DNSe_NRSS_ver224c.so \
     $(LOCAL_PATH)/proprietary/lib/libFraunhoferAAC.so:system/lib/libFraunhoferAAC.so \
     $(LOCAL_PATH)/proprietary/lib/libhwcodec.so:system/lib/libhwcodec.so \
     $(LOCAL_PATH)/proprietary/lib/libisp2.so:system/lib/libisp2.so \
@@ -69,9 +66,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libOMX.brcm.video.h264.hw.encoder.so:system/lib/libOMX.brcm.video.h264.hw.encoder.so \
     $(LOCAL_PATH)/proprietary/lib/libril.so:system/lib/libril.so \
     $(LOCAL_PATH)/proprietary/lib/librpc.so:system/lib/librpc.so \
-    $(LOCAL_PATH)/proprietary/lib/libsamsungRecord_ns.so:system/lib/libsamsungRecord_ns.so \
     $(LOCAL_PATH)/proprietary/lib/libsamsungRecord.so:system/lib/libsamsungRecord.so \
-    $(LOCAL_PATH)/proprietary/lib/lib_SamsungRec_V01006.so:system/lib/lib_SamsungRec_V01006.so \
+    $(LOCAL_PATH)/proprietary/lib/lib_SamsungRec_V03011b.so:system/lib/lib_SamsungRec_V03011b.so \
     $(LOCAL_PATH)/proprietary/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
     $(LOCAL_PATH)/proprietary/lib/lib_Samsung_SB_AM_for_ICS_v04004.so:system/lib/lib_Samsung_SB_AM_for_ICS_v04004.so \
     $(LOCAL_PATH)/proprietary/lib/libsamsungSoundbooster.so:system/lib/libsamsungSoundbooster.so \
