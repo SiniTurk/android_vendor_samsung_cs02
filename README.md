@@ -29,7 +29,7 @@ Vendor tree for Samsung Galaxy Core Plus SM-G350 aka cs02
 | etc/wifi/nvram_mfg.txt                                       | G350XXUANB1     |         |
 | etc/wifi/nvram_net.txt                                       | G350XXUANB1     |         |
 | etc/wifi/wpa_supplicant.conf                                 | G350XXUANB1     |         |
-| lib/egl/libGLES_hawaii.so                                    | G350XXUANB1     | <ul><li>Bumped ucnv suffix to 55</li></ul> |
+| lib/egl/libGLES_hawaii.so                                    | G350XXUANB1     | <ul><li>Bumped ucnv suffix to 55</li><li>Remove logging spam</li></ul> |
 | lib/hw/acoustics.default.so                                  | G350XXUANB1     |         |
 | lib/hw/alsa.default.so                                       | G350XXUANB1     |         |
 | lib/hw/audio.primary.hawaii.so                               | G350XXUANB1     |         |
@@ -37,8 +37,8 @@ Vendor tree for Samsung Galaxy Core Plus SM-G350 aka cs02
 | lib/hw/bplus.default.so                                      | G350XXUANB1     |         |
 | lib/hw/camera.hawaii.so                                      | G350XXUANB1     |         |
 | lib/hw/gps.hawaii.so                                         | G350XXUANB1     |         |
-| lib/hw/gralloc.hawaii.so                                     | G350XXUANB1     |         |
-| lib/hw/hwcomposer.hawaii.so                                  | G350XXUANB1     |         |
+| lib/hw/gralloc.hawaii.so                                     | G350XXUANB1     | <ul><li>Remove logging spam</li></ul> |
+| lib/hw/hwcomposer.hawaii.so                                  | G350XXUANB1     | <ul><li>Remove logging spam</li></ul> |
 | lib/hw/sensors.hawaii.so                                     | G350XXUANB1     |         |
 | lib/libBrcmOMX_Component.so                                  | G350XXUANB1     |         |
 | lib/libBrcmOMX_Core.so                                       | G350XXUANB1     |         |
