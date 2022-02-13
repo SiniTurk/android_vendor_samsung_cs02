@@ -10,7 +10,6 @@
 | bin/gps.cer                                                  | G350XXUANB1     |         |
 | bin/gpslogd                                                  | G350XXUANB1     |         |
 | bin/immvibed                                                 | G350XXUANB1     |         |
-| bin/lpm                                                      | G310HNXXU0APA1  |         |
 | bin/mfgloader                                                | G350XXUANB1     |         |
 | bin/mttlogger                                                | G350XXUANB1     |         |
 | bin/rild                                                     | G350XXUANB1     |         |
