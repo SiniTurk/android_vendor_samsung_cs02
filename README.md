@@ -27,7 +27,6 @@
 | etc/wifi/bcmdhd_sta.bin                                      | G310HNXXU0APA1  |         |
 | etc/wifi/nvram_mfg.txt                                       | S7580XXUBOL1    |         |
 | etc/wifi/nvram_net.txt                                       | S7580XXUBOL1    |         |
-| etc/wifi/wpa_supplicant.conf                                 | G350XXUANB1     |         |
 | lib/egl/libGLES_hawaii.so                                    | S7580XXUBOL1    | <ul><li>Bumped ucnv suffix to 56</li><li>Removed Samsung's logging spam</li></ul> |
 | lib/hw/acoustics.default.so                                  | G350XXUANB1     |         |
 | lib/hw/alsa.default.so                                       | G350XXUANB1     |         |
